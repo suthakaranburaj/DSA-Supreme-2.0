@@ -28,9 +28,9 @@ Node* createTree(){
     }
 
     Node* root = new Node(data);
-    cout<<"Left of node"<<root->data<<endl;
+    cout<<"Left of node "<<root->data<<endl;
     root->left=createTree();
-    cout<<"Right of node"<<root->data<<endl;
+    cout<<"Right of node "<<root->data<<endl;
     root->right=createTree();
 
     return root;
